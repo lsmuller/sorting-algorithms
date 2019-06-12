@@ -18,7 +18,7 @@ public class BubbleSortTest {
 	public void sortRecursivelyShouldOrderArray() {
 		int[] arr = {9, 7, 8, 6, 1, 4, 2, 3, 5};
 		int[] expArr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-		Assert.assertEquals(Arrays.toString(expArr), Arrays.toString(BubbleSort.sortRecursively(arr, arr.length)));
+		Assert.assertEquals(Arrays.toString(expArr), Arrays.toString(BubbleSort.sortRecursively(arr)));
 	}
 
 }

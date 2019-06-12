@@ -18,11 +18,15 @@ public class BubbleSort {
 		return arr;
 	}
 
-	public static int[] sortRecursively(int[] arr, int size) {
-		if (size == 1) {
+	public static int[] sortRecursively(int[] arr) {
+		return sortRecursively(arr, arr.length);
+	}
+
+	private static int[] sortRecursively(int[] arr, int size) {
+		if (arr.length == 1) {
 			return arr;
 		}
-		for (int i = 0; i < size - 1; i++) {
+		for (int i = 0; i < arr.length - 1; i++) {
 			if (arr[i] > arr[i + 1]) {
 				int temp = arr[i];
 				arr[i] = arr[i + 1];
