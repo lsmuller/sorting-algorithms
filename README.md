@@ -111,7 +111,10 @@ The good thing about selection sort is it never makes more than O(n) swaps and c
 **Stability:** The default implementation is not stable. However it can be made stable. Please see stable selection sort for details.  
 **In Place:** Yes, it does not require extra space.
 
-## Insert Sort
+## Insertion Sort
+Insertion sort is a simple sorting algorithm that works the way we sort playing cards in our hands.
+
+![Insertion Sort](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/insertionsort.png)
 
 ## Heap Sort
 
