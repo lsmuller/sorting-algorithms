@@ -17,7 +17,6 @@ public class QuickSortTest {
 		QuickSort.sort1(arr1, 0, arr1.length - 1);
 		QuickSort.sort2(arr2, 0, arr2.length - 1);
 
-
 		Assert.assertEquals(Arrays.toString(expArr), Arrays.toString(arr1));
 		Assert.assertEquals(Arrays.toString(expArr), Arrays.toString(arr2));
 	}
